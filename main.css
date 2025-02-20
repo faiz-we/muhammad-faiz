@@ -1,0 +1,229 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+body {
+    background:#081b29;
+    color: #ededed;
+}
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+
+
+}
+.logo {
+    font-size: 25px;
+    color: lightblue;
+    text-decoration: none;
+    font-weight: 600;
+}
+.navbar a {
+    font-size: 18px;
+    color: lightblue;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: 3s;
+
+}
+.navbar a:hover {
+    color: whitesmoke;
+
+}
+.home {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+}
+.hal1content{
+    max-width: 600px;
+    padding: 0;
+}
+.hal1content h1{
+    font-size: 56px;
+    font-weight: 700;
+    
+    color: #ffffff;
+
+}
+.hal1content h3{
+    font-size: 32px;
+    font-weight: 700;
+    color: #00abf0;
+}
+.hal1content{
+    font-size: 16px;
+
+}
+.hal1content .btn-box{
+    display: flex;
+    width: 140px;
+    height: 50px;
+}
+
+section .btn-box a {
+    text-decoration: none;
+    color: lightblue;
+}
+
+.btn-box{
+    background-color: transparent;
+    border-radius: 8px;
+    font-size: 19px;
+    color: #081b29;
+    font-weight: 600;  
+    letter-spacing: 1px;
+    padding: 12px;
+}
+.perkenalan{
+    /* text-align:left;
+    margin: 0;
+    display: flex; */
+    height: 100vh;
+    display: flex;
+    margin-top: 5rem;
+    padding: 0;
+    
+}
+.isimainwebsite{
+    height: 100vh;
+    display: flex;
+    margin-top: 5rem;
+    padding: 0
+}
+.card:hover{
+    transform: translateY(-10px) scale(1.05);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+.container {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+    margin: 20px;
+}
+
+h1 {
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+.contact-form {
+    display: flex;
+    flex-direction: column;
+}
+.form-group {
+    margin-bottom: 15px;
+}
+label {
+    font-size: 14px;
+    font-weight: bold;
+    color: #ffffff;
+}
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input:focus, textarea:focus {
+    border-color: #4CAF50;
+    outline: none;
+}
+
+/* Tombol kirim */
+.submit-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.submit-btn:hover {
+    background-color: #45a049;
+}
+
+.submit-btn:focus {
+    outline: none;
+}
+
+.home-left{
+    margin: 50px;
+}
+
+.name {
+    color: #ffffff;
+    font-size: 3rem;
+    margin: .5rem 0 1rem;
+    text-align: start;
+
+}
+.dicoding {
+    margin: 0;
+    width: 0;
+    height: 25%;
+    padding: 0; 
+
+}
+.dicoding {
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    width: 65%;
+    height: 65%;
+
+    
+}
+.namakontak{
+    color: black;
+}
+
+.ketfaiz {
+    position: flex; 
+    margin-top:4rem;
+    text-align: center;
+}
+.sertifikatjs{
+    width: 50%;
+    height: auto;
+
+}
+.sertifikatdicoding{
+    width: 50%;
+    height: auto;
+}
+.bodycontact{
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 780px;
+}
+.sertif{
+    display: flex;
+}
+.sertifjs{
+    width: 50%;
+    height: auto;
+    
+}
